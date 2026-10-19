@@ -1,0 +1,12 @@
+# Локальные инструменты Claude Code
+.claude/
+
+# Файлы GitHub-профиля и временные файлы редактора
+Gethub/
+~$*
+
+# Системный мусор
+.DS_Store
+Thumbs.db
+node_modules/
+*.log

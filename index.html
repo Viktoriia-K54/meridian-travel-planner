@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MERIDIAN — ателье путешествий</title>
+  <meta name="description" content="Интерактивный планировщик путешествий: 13 вопросов, 3–5 направлений и детальный маршрут с бюджетом, логистикой и чек-листом.">
+  <meta name="theme-color" content="#f4efe6">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/questionnaire.css">
+  <link rel="stylesheet" href="assets/css/results.css">
+  <link rel="stylesheet" href="assets/css/detail.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <main id="main" class="app" aria-live="polite"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <div class="noscript">
+      <h1>Нужен JavaScript</h1>
+      <p>Этот планировщик работает как интерактивная презентация. Включите JavaScript в браузере.</p>
+    </div>
+  </noscript>
+
+  <script src="assets/js/data/meta.js"></script>
+  <script src="assets/js/data/questions.js"></script>
+  <script src="assets/js/data/destinations.js"></script>
+  <script src="assets/js/data/itineraries-a.js"></script>
+  <script src="assets/js/data/itineraries-b.js"></script>
+  <script src="assets/js/data/itineraries-c.js"></script>
+  <script src="assets/js/data/itineraries-d.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/matcher.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/views/shared.js"></script>
+  <script src="assets/js/views/intro.js"></script>
+  <script src="assets/js/views/questionnaire.js"></script>
+  <script src="assets/js/views/summary.js"></script>
+  <script src="assets/js/views/results.js"></script>
+  <script src="assets/js/views/detail.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
